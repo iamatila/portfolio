@@ -41,7 +41,7 @@
             </ul>
           </div>
           <div class="left-column">
-            <img id="profile_pic" src="images/tobi.jpeg" />
+            <img id="profile_pic" src="images/tobi.jpeg" alt="" />
 
             <h5 style="text-align: center; line-height: 0">
               Personalize Theme
@@ -98,8 +98,8 @@
               Fullstack developer with primary focus on VueJs & Express.Js:
               <!-- href="https://drive.google.com/file/d/1zbEnzb_jGm2JxexHLLNH4ch9-n7KH3LX/view?usp=sharing" -->
               <a 
-                href="https://drive.google.com/file/d/1C-G4Y2q67rmSqeUDXkSbHujt-Klxv1PN/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/file/d/15Dh9Um7E6TUCSIpJE7FWVT6w3Dq6DlGa/view?usp=sharing"
+                target="_blank" rel="noopener noreferrer"
                 >Download Resume</a
               >
             </p>
@@ -131,31 +131,35 @@
               Linkedin:
               <a
                 href="https://www.linkedin.com/in/oluwatobiloba-atilola-201272b4/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 >Tobi Atilola</a
               >
             </p>
             <p>
               Github:
-              <a href="https://github.com/iamatila" target="_blank"
+              <a href="https://github.com/iamatila" 
+                target="_blank" rel="noopener noreferrer"
                 >@iamatila</a
               >
             </p>
             <p>
               Twitter:
-              <a href="https://twitter.com/iamAtila" target="_blank"
+              <a href="https://twitter.com/iamAtila" 
+                target="_blank" rel="noopener noreferrer"
                 >@iamatila</a
               >
             </p>
             <p>
               Instagram:
-              <a href="https://www.instagram.com/iamatila/" target="_blank"
+              <a href="https://www.instagram.com/iamatila/" 
+                target="_blank" rel="noopener noreferrer"
                 >@iamatila</a
               >
             </p>
             <p>
               Facebook:
-              <a href="https://web.facebook.com/atilola3/" target="_blank"
+              <a href="https://web.facebook.com/atilola3/" 
+                target="_blank" rel="noopener noreferrer"
                 >Tobi Atilola</a
               >
             </p>
@@ -170,7 +174,7 @@
         <div class="post-wrapper">
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/propfunds.png" />
+              <img class="thumbnail" src="images/propfunds.png" alt="" />
               <div class="post-preview">
                 <h6 class="post-title">Propfunds.ng</h6>
                 <p class="post-intro">
@@ -178,7 +182,9 @@
                   Frontend - Vuejs & BulmaCSS, Backend - Django.
                 </p>
                 <p>
-                  <a target="_blank" href="https://propfunds.ng">Website</a>
+                  <a href="https://propfunds.ng" 
+                    target="_blank" rel="noopener noreferrer"
+                    >Website</a>
                 </p>
               </div>
             </div>
@@ -186,7 +192,7 @@
 
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/djackets.png" />
+              <img class="thumbnail" src="images/djackets.png" alt="" />
               <div class="post-preview">
                 <h6 class="post-title">Djackets</h6>
                 <p class="post-intro">
@@ -194,7 +200,8 @@
                   Backend - Express.js.
                 </p>
                 <p>
-                  <a href="https://github.com/iamatila/djackets" target="_blank"
+                  <a href="https://github.com/iamatila/djackets"
+                     target="_blank" rel="noopener noreferrer"
                     >Github repo</a
                   >
                 </p>
@@ -204,7 +211,7 @@
 
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/kakemaster.png" />
+              <img class="thumbnail" src="images/kakemaster.png" alt="" />
               <div class="post-preview">
                 <h6 class="post-title">Kakemaster</h6>
                 <p class="post-intro">
@@ -215,7 +222,7 @@
                 <p>
                   <a
                     href="https://github.com/iamatila/kakeMaster"
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     >Github repo</a
                   >
                 </p>
@@ -235,17 +242,17 @@
           method="POST"
           data-netlify="true"
         >
-          <label>Name</label>
-          <input class="input-field" type="text" name="name" />
+          <label for="name">Name</label>
+          <input class="input-field" type="text" name="name" id="name" />
 
-          <label>Subject</label>
-          <input class="input-field" type="text" name="subject" />
+          <label for="subject">Subject</label>
+          <input class="input-field" type="text" name="subject" id="subject" />
 
-          <label>Email</label>
-          <input class="input-field" type="email" name="email" />
+          <label for="email">Email</label>
+          <input class="input-field" type="email" name="email" id="email" />
 
-          <label>Message</label>
-          <textarea class="input-field" name="message"></textarea>
+          <label for="message">Message</label>
+          <textarea class="input-field" name="message" id="message"></textarea>
 
           <input id="submit-btn" type="submit" value="Send" />
         </form>
