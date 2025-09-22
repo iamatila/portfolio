@@ -1,0 +1,85 @@
+{
+    "post": [
+        {
+            "thumbnail": "images/gochacha.png",
+            "preview": "",
+            "title": "Gochacha.ng",
+            "description": "This is a ride hailing web app, similar to Uber and Bolt, for pakage delivery.",
+            "tech": "Vuejs, Nuxt and NuxtUI.",
+            "website": "https://gochacha.ng",
+            "repo": ""
+        },
+        {
+            "thumbnail": "images/admin_gochacha.png",
+            "preview": "",
+            "title": "Admin Gochacha.ng",
+            "description": "Admin dashboard backend for gochacha.ng web app.",
+            "tech": "Vuejs, Nuxt and Vuetify.",
+            "website": "https://admin.gochacha.ng",
+            "repo": ""
+        },
+        {
+            "thumbnail": "images/milandm.png",
+            "preview": "",
+            "title": "MilanDM.com",
+            "description": "This is a detailing and car wash booking web app, for car owners to book for car wash and detailing services.",
+            "tech": "Vuejs and Quasar.",
+            "website": "https://milandm.com",
+            "repo": ""
+        },
+        {
+            "thumbnail": "images/admin_milandm.png",
+            "preview": "",
+            "title": "Admin MilanDM.com",
+            "description": "Admin dashboard backend for milan.com web app, for managing bookings, customers, services, agent and franchisees.",
+            "tech": "Vuejs and Quasar.",
+            "website": "https://admin.milandm.com",
+            "repo": ""
+        },
+        {
+            "thumbnail": "images/sixstars.png",
+            "preview": "",
+            "title": "SixStars",
+            "description": "Making sure that customers get their receipt automatically through text or whatsapp after clothes are booked, Admin and front desk officers can monitor the process of the clothes in real time.",
+            "tech": "Vuejs and Quasar.",
+            "website": "https://www.sixstars.com.ng",
+            "repo": ""
+        },
+        {
+            "thumbnail": "images/cashmatrix.jpg",
+            "preview": "",
+            "title": "CashMatrix",
+            "description": "Leading a team of flutter Engineers to create top notch solutions for our clients, e.g. CashMatrix , CashmatrixBusiness and GGTConnect banking app on playstore and appstore.",
+            "tech": "Flutter.",
+            "website": "https://play.google.com/store/search?q=cashmatrix&c=apps&hl=en&gl=US",
+            "repo": ""
+        },
+        {
+            "thumbnail": "images/propfunds.png",
+            "preview": "",
+            "title": "Propfunds.ng",
+            "description": "This is a property investment website.",
+            "tech": "Frontend - Vuejs & BulmaCSS, Backend - Django.",
+            "website": "https://propfunds.ng",
+            "repo": ""
+        },
+        {
+            "thumbnail": "images/djackets.png",
+            "preview": "",
+            "title": "Djackets",
+            "description": "This is an ecommerce website.",
+            "tech": "Frontend - Vuejs & BulmaCSS, Backend - Express.js.",
+            "website": "",
+            "repo": "https://github.com/iamatila/djackets"
+        },
+        {
+            "thumbnail": "images/kakemaster.png",
+            "preview": "",
+            "title": "Kakemaster",
+            "description": "This is a bakery website, where you can design & order for different kind of cakes.",
+            "tech": "React, Html, CSS, Javascript & Bootstrap.",
+            "website": "https://kakemasters.com",
+            "repo": "https://github.com/iamatila/kakeMaster"
+        }
+    ]
+}

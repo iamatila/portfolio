@@ -241,14 +241,14 @@ h6 {
 
 #preview-shadow {
   background-color: var(--previewShadow);
-  width: 300px;
+  width: 400px;
   height: 180px;
   padding-left: 30px;
   padding-top: 30px;
 }
 
 #preview {
-  width: 300px;
+  width: 400px;
   border: 1.5px solid #17a2b8;
   background-color: var(--previewBg);
   padding: 15px;
@@ -312,11 +312,20 @@ h6 {
   padding-bottom: 50px;
 }
 
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
 .post {
   border: 1px solid var(--borderColor);
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  background-color: white;
 }
 
 .thumbnail {
@@ -405,3 +414,4 @@ h6 {
     padding-left: 0;
   }
 }
+
