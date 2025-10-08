@@ -312,6 +312,14 @@ h6 {
   padding-bottom: 50px;
 }
 
+.post-wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
 .post-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
@@ -333,6 +341,24 @@ h6 {
   width: 100%;
   height: 180px;
   object-fit: cover;
+}
+
+.thumbnail-wrap {
+  position: relative;
+}
+
+.view-chip {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background: #28a745; /* green */
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 16px;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .post-preview {
@@ -368,6 +394,89 @@ h6 {
 #contact-form textarea {
   min-height: 100px;
   font-size: 14px;
+}
+
+/* Preview modal styles */
+.preview-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preview-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+.preview-dialog {
+  position: relative;
+  background: var(--secondaryColor);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90%;
+  z-index: 10000;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.preview-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.preview-carousel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.carousel-prev, .carousel-next {
+  background: rgba(0,0,0,0.05);
+  border: 1px solid var(--borderColor);
+  padding: 8px 12px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.carousel-track {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 240px;
+}
+.carousel-slide {
+  width: 100%;
+  display: none; /* only active shown */
+  text-align: center;
+}
+.carousel-slide img, .carousel-slide video {
+  max-width: 100%;
+  max-height: 70vh;
+}
+.modal-thumbs {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-top: 6px;
+}
+.modal-thumb {
+  width: 64px;
+  height: 44px;
+  object-fit: cover;
+  opacity: 0.6;
+  cursor: pointer;
+  border: 1px solid var(--borderColor);
+}
+.modal-thumb.active {
+  outline: 2px solid #17a2b8;
+  opacity: 1;
 }
 
 .input-field {
