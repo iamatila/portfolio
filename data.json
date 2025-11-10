@@ -88,7 +88,7 @@
             "title": "Invoice & Receipt Generator App",
             "description": "App to generate invoice and receipt in PDF format, with ability to download and share.",
             "tech": "Frontend - Vuejs, Nuxt and Vuetify.",
-            "website": "https://receipts-generator.netlify.app/",
+            "website": "https://invoice-gen-pdf.netlify.app/",
             "repo": "https://github.com/iamatila/Pdf_Generator"
         },
         {
