@@ -92,6 +92,20 @@
             "repo": "https://github.com/iamatila/Pdf_Generator"
         },
         {
+            "thumbnail": "images/fehintola1.png",
+            "preview": [
+                "images/fehintola1.png",
+                "images/fehintola2.png",
+                "images/fehintola3.png",
+                "images/fehintola4.png"
+            ],
+            "title": "Fehintola Hospital Website",
+            "description": "A website for Fehintola Hospital, to provide information about the hospital services, doctors, and contact details.",
+            "tech": "Frontend - Vuejs and Quasar.",
+            "website": "https://fehintolaroyalconsult.org.ng/",
+            "repo": ""
+        },
+        {
             "thumbnail": "images/a2.jpg",
             "preview": [
                 "images/a1.jpg",
