@@ -126,7 +126,7 @@
             "title": "Asset Tracking Subscriber",
             "description": "Subscriber view of the Asset tracking system, to see the publisher moving to destination.",
             "tech": "Frontend - Vuejs, Nuxt, Ably, and Google Maps.",
-            "website": "https://assettrackingsubscriber.up.railway.app/",
+            "website": "https://assettrackingsubscriber.netlify.app/",
             "repo": "https://github.com/iamatila/assetTrackingSubscriber"
         },
         {
